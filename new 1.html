@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Domino Mafia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=800px, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<main id="gameFrame" class="firstGame" onclick="myShootingEffects()">
+
+		<div id="healthBar"></div>
+
+		<div class="ennemy" style="left: 030px;"></div>
+		<div class="ennemy" style="left: 200px;"></div>
+		<div class="ennemy" style="left: 330px;"></div>
+		<div class="ennemy" style="left: 430px;"></div>
+		<div class="ennemy" style="left: 500px;"></div>
+		<div class="ennemy" style="left: 640px;"></div>
+
+		<button onclick="newGame()" id="newGame">
+
+			<span class="messageWon">
+				<span class="emoji">👏</span> Oh yes!
+			</span>
+			<span class="messageDead">
+				<span class="emoji">😵</span> Oh no…
+			</span>
+			<span class="messageWelcome">
+				<span class="emoji">🤖</span> Welcome
+			</span>
+			
+			<p>👉 New game</p>
+
+		</button>
+
+	</main>
+
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
